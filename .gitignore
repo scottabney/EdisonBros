@@ -1,0 +1,7 @@
+# Test files
+test.txt
+demo_test.txt
+
+# Temporary files
+*.tmp
+*.bak
