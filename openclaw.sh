@@ -7,9 +7,9 @@ VERSION="1.0.0"
 
 # Function to display help
 show_help() {
-    cat << 'EOF'
+    cat << EOF
 
-OpenClaw v1.0.0
+OpenClaw v${VERSION}
 File viewing and concatenation utility
 
 USAGE

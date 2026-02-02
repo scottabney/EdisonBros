@@ -108,7 +108,7 @@ Get-Content file.txt | .\openclaw.ps1
 | Bash Option | PowerShell Option | Description |
 |-------------|-------------------|-------------|
 | -h, --help | -Help, -h | Show help message |
-| -v, --version | -Version, -v | Show version information |
+| -v, --version | -ShowVersion, -v | Show version information |
 | -n, --number | -Number, -n | Number all output lines |
 | -b, --number-nonblank | -NumberNonBlank, -b | Number non-blank output lines only |
 | -s, --squeeze-blank | -SqueezeBlank, -s | Suppress repeated empty lines |

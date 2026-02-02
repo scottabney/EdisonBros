@@ -112,8 +112,8 @@ begin {
     function script:Process-Line {
         param([string]$Line)
         
-        # Check if line is blank
-        $isBlank = [string]::IsNullOrWhiteSpace($Line)
+        # Check if line is blank (consistent with Bash version)
+        $isBlank = ($Line.Length -eq 0)
         
         # Handle squeeze blank
         if ($SqueezeBlank -and $isBlank -and $script:previousBlank) {
